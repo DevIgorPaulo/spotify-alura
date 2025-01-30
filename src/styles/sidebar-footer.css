@@ -168,12 +168,13 @@ body{
 }
 
 footer.disclaimer-premium{
+    /* min-height: 10vh; */
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
     background: linear-gradient(to right, #ae2896, #509bf5);
-    padding: 15px 40px;
+    padding: 10px 40px;
     display: flex;
     justify-content: space-between;
 }
@@ -187,7 +188,7 @@ footer.disclaimer-premium{
      text-transform: uppercase;
      font-weight: 400;
      font-size: 12px;
-     margin-bottom: 10px;
+     /* margin-bottom: 5px; */
  }
  
  .disclaimer-premium .disclaimer-premium__subtitle {
